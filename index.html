@@ -198,7 +198,6 @@
     </style>
 </head>
 <body>
-    <!-- Rest of the HTML remains the same -->
     <div class="main-container">
         <div class="title-section">
             <div class="diwali-wish">शुभ दीपावली ✨</div>
@@ -219,7 +218,7 @@
             <div class="verse" id="verse2">
                 <div class="verse-line">न उठता उनके कंधों पर त्याग का भार,</div>
                 <div class="verse-line">न फिर वो भरत की आस में जीते संसार,</div>
-                <div class="verse-line">न रखते लोग उन्हें अपने दिल में बसकर,</div>
+                <div class="verse-line">न रखते लोग उन्हें अपने दिल में बसाकर,</div>
                 <div class="verse-line">न बनते वो धैर्य और धर्म के अवतार।</div>
             </div>
             
@@ -255,7 +254,6 @@
     </div>
 
     <script>
-        // JavaScript remains the same
         function createDiya() {
             const diya = document.createElement('div');
             diya.className = 'diya';
@@ -300,9 +298,9 @@
                 verses[currentVerse].classList.add('active');
                 currentVerse++;
                 
-                // Continue to next verse after 10 seconds
+                // Continue to next verse after 15 seconds
                 if (currentVerse < verses.length) {
-                    setTimeout(showNextVerse, 10000);
+                    setTimeout(showNextVerse, 15000);
                 }
             }
         }
